@@ -22,7 +22,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                // Perform deployment steps here (e.g., copying files to a server)
+                sh 'copying files to a server'
             }
         }
     }
