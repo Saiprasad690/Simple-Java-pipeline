@@ -20,11 +20,6 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                sh 'copying files to a server'
-            }
-        }
     }
 
     post {
